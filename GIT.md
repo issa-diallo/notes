@@ -15,6 +15,12 @@
 ```git rebase -i sha1``` or 
 ```git reset --soft HEAD~2```
 
+## Deleting local branches
+``` git branch -d feature/login```
+
+## Deleting remote branches
+```git push origin --delete feature/login```
+
 ## Debug git push
 
 ```
